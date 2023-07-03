@@ -3,26 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfólio de Michel de Lima Soares</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2em;
-    }
-    h1 {
-      font-size: 2em;
-    }
-    h2 {
-      font-size: 1.5em;
-    }
-    p {
-      margin-bottom: 1em;
-    }
-    code {
-      background-color: #f5f5f5;
-      padding: 2px 4px;
-    }
-  </style>
+  
 </head>
 <body>
   <h1>Portfólio - Michel de Lima Soares</h1>
