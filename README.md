@@ -25,7 +25,7 @@
   </style>
 </head>
 <body>
-  <h1>Portfólio de Michel de Lima Soares</h1>
+  <h1>Portfólio - Michel de Lima Soares</h1>
 
   <h2>Este é o meu portfólio pessoal, onde apresento minhas habilidades como desenvolvedor de software e compartilho informações sobre minha experiência, projetos e formas de contato.</h2>
 
@@ -41,7 +41,7 @@
   </ul>
 
   <h2>Hospedagem</h2>
-  <p>Este portfólio está hospedado no Netlify. Você pode acessá-lo através do seguinte link: <a href="[https://seu-portfolio-netlify-link.com](https://soft-custard-887629.netlify.app/)">Portfólio de Michel de Lima Soares</a></p>
+  <p>Este portfólio está hospedado no Netlify. Você pode acessá-lo através do seguinte link: <a href="https://soft-custard-887629.netlify.app/">Portfólio de Michel de Lima Soares</a></p>
 
   <h2>Como Executar Localmente</h2>
   <ol>
