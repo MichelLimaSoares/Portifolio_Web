@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Portfólio de Michel de Lima Soares</title>
+  <meta charset="UTF-8"> 
   
 </head>
 <body>
