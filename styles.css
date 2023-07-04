@@ -481,7 +481,7 @@ footer{
     font-size: 1rem;
 }
 /* RESPONSIVE */
-@media screen and (min-width: 300px) and (max-width: 850px){
+@media screen and (min-width: 300px) and (max-width: 750px){
     body{
         overflow-x: hidden;
     }
