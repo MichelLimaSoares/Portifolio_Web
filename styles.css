@@ -303,13 +303,14 @@ h1 span{
     font-size: 1.6rem;
 }
 .grid-container-experience{
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: repeat(3, 18vw);
+    justify-content: center;
     background: #fff;
-    padding: 30px 10vw;
+    padding: 30px;
     border-radius: 50px;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
     width: 75vw;
-    text-align: justify;
     align-self: center;
 }
 .grid-items-div-experience{
@@ -326,7 +327,25 @@ h1 span{
 .grid-items-experience:hover{
     box-shadow: 0 3px 15px 0 #777;
 }
-.grid-container-experience h3{
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+.grid-items-div-experience:hover .close-button {
+    display: block;
+  }
+.grid-container-experience h4{
+    text-align: center;  
+}
+.grid-items-div-experience p{
     text-align: center;
 }
 /* CONTACT */
@@ -462,7 +481,7 @@ footer{
     font-size: 1rem;
 }
 /* RESPONSIVE */
-@media screen and (min-width: 300px) and (max-width: 750px){
+@media screen and (min-width: 300px) and (max-width: 850px){
     body{
         overflow-x: hidden;
     }
@@ -587,9 +606,25 @@ footer{
         text-align: center;
         font-size: 2.5vw;
     }
-    .grid-items-div-experience a img{
-        height: 45vw;
-        width: 45vw;
+    .grid-container-experience{
+        grid-template-columns: repeat(2, 35vw);
+        grid-template-rows: repeat(3, 27vw);
+    }
+    .grid-items-experience{
+        width: 25vw;
+        height: 17vw;
+    }  
+    .grid-items-div-experience{
+        text-align: center;
+        font-size: 2.5vw;
+    }
+    .grid-items-div-experience h4{
+        text-align: center;
+        font-size: 2.1vw;
+    }
+    .grid-items-div-experience p{
+        text-align: center;
+        font-size: 1.8vw;
     }
     .name{
         width: 60vw;
