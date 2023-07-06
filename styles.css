@@ -57,14 +57,14 @@ nav{
 .nav-menu-bars div{
     width: 32px;
     height: 2px;
-    background: white;
+    background: rgb(246, 244, 244);
     margin: 8px;
     transition: 0.3s;
 }
 /* MAIN */
 body {
     font-family: 'poppins', sans-serif;
-    background: #ddd;
+    background: #f0eeee;
     overflow-x: hidden;
     color: #333;
 }
