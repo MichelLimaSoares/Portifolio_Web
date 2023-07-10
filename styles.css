@@ -209,14 +209,14 @@ h1 span{
     padding: 30px;
     border-radius: 50px;
     list-style: none;
-    grid-column-gap: 45px;
-    grid-row-gap: 50px;
+    grid-column-gap: 55px;
+    grid-row-gap: 55px;
     width: 75vw;
     align-self: center;
 }
 .grid-items{
     justify-self: center;
-    padding: 10px 4px 5px 4px;
+    padding: 10px 2px 5px 2px;
     border-radius: 20px;
     border: 0.5px solid #aaa;
     transition-duration: 0.2s;
@@ -230,18 +230,8 @@ h1 span{
     text-align: center;
 }
 .grid-items img{
-    width: 50px;
-    height: 50px;
-}
-.planner{
-    transform: scaleX(2.5);
-    margin-bottom: 10px;
-    /* ANALISAR */
-}
-.NotePad{
-    transform: scaleY(2.5); 
-    margin-bottom: 1px;
-    /* ANALISAR */
+    width: 60px;
+    height: 60px;
 }
 /* WORKS-EXPERIENCES */
 .works{
@@ -589,17 +579,20 @@ footer{
         margin-top: 10vh;
         margin-bottom: 40px;
     }
+    .grid-items{
+        margin: 1px;
+    }
     .grid-items img{
         display: grid;
-        height: 25vh;
-        width: 20vh;      
+        height: 9vh;
+        width: 13vw;      
     }
     .grid-container-works{
         grid-template-columns: repeat(2, 35vw);
         grid-template-rows: repeat(2, 27vw);
     }
     .grid-items-works{
-        width: 25vw;
+        width: 27vw;
         height: 17vw;
     }
     .grid-items-div-projects h3{
