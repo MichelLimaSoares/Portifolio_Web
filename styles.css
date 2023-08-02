@@ -92,6 +92,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 12vw;
+    padding-top: 10vh;''
 }
 .description-text{
     flex-basis: 50%;
