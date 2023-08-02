@@ -589,6 +589,9 @@ footer{
         height: 9vh;
         width: 13vw;      
     }
+    .grid-container{
+        grid-template-columns: repeat(3, 10vw);
+    }
     .grid-container-works{
         grid-template-columns: repeat(2, 35vw);
         grid-template-rows: repeat(2, 27vw);
