@@ -558,19 +558,35 @@ footer{
     .description{
         display: inline-block;
         margin-bottom: 250px;
+        margin: 2vw 2vw 1vw 12vw;
     }
     .description-text{
         text-align: center;
         display: inline-block;
+        margin: 2px;        
+        padding: 2px;
     }
     .socialMedia{
         display: inline-flex;
         flex-direction: column;
+        margin: 2px;
     }   
     .main-img img{
         margin: 20px 0;
         width: 350px;
         height: 270px;
+    }
+    h1{
+        font-size: 2.2em;
+        letter-spacing: 1.5px;
+        margin: 6px 0 4px;
+    }
+    .smallDescription{
+        letter-spacing: 1px;
+        color: #777;
+        font-size: 1rem;
+        min-width: 200px;
+        line-height: 1.5;
     }
     .socialList li a:hover{
         box-shadow: 0 2px 15px 0 var(--maincolor);
