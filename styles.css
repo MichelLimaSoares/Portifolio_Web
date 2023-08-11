@@ -20,7 +20,7 @@ nav{
 .nav-ul-li-a {
     color:white;
     text-decoration: none;
-    padding: 2px;
+    padding: 1px;
 }
 .nav-ul-li-a:hover{
     opacity: 0.9;
@@ -34,7 +34,7 @@ nav{
     text-transform: uppercase;
     letter-spacing: 4px;
     color:white;
-    margin-left: 10px;    
+    margin-left: 20px;    
 }
 .logo-nav:hover{
     background-color: #0d012d;
@@ -47,8 +47,8 @@ nav{
 }
 .nav-ul li{
     letter-spacing: 3px;
-    margin-left: 32px;
-    padding: 6px;
+    margin-left: 20px;
+    padding: 5px;
 }
 .nav-menu-bars{
     display: none;
@@ -108,7 +108,7 @@ h1{
     font-size: 2.5em;
     letter-spacing: 2.5px;
     margin: 24px 0;
-    color: #777;
+    color: #5e5e5e;
 }
 h1 span{
     color: var(--maincolor);
@@ -192,7 +192,8 @@ h1 span{
 /* SKILLs */
 .skills{
     display: flex;
-    margin: 0 40px;
+    margin: 0 40px 40px;
+    padding: 0 0 10px;
     flex-direction: column;
 }
 .title-skills{
@@ -254,7 +255,7 @@ h1 span{
 .grid-container-works{
     display: grid;
     grid-template-columns: repeat(2, 30vw);
-    grid-template-rows: repeat(3, 18vw);
+    grid-template-rows: repeat(2, 17vw);
     justify-content: center;
     align-self: center;
     background: #fff;
@@ -267,9 +268,13 @@ h1 span{
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    margin: 1vw 1vw;
 }
 .grid-items-div-projects h3{
     text-align: center;
+    font-size: 1.1vw;
+    padding: 0.5vw;
+    margin: 0 1vw;
 }
 .grid-items-works{
     width: 20vw;
@@ -297,7 +302,7 @@ h1 span{
 .grid-container-experience{
     display: grid;
     grid-template-columns: repeat(2, 30vw);
-    grid-template-rows: repeat(3, 18vw);
+    grid-template-rows: repeat(2, 17vw);
     justify-content: center;
     background: #fff;
     padding: 30px;
@@ -310,6 +315,7 @@ h1 span{
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding: 1rem 1rem ;
 }
 .grid-items-experience{
     width: 20vw;
@@ -335,10 +341,14 @@ h1 span{
     display: block;
   }
 .grid-container-experience h4{
-    text-align: center;  
+    text-align: center; 
+    font-size: 1.2vw;
+    padding: 0.5vw;
+    margin: 0 1vw; 
 }
 .grid-items-div-experience p{
     text-align: center;
+    font-size: 1vw;
 }
 /* CONTACT */
 .contact{
@@ -557,8 +567,6 @@ footer{
     }
     .description{
         display: inline-block;
-        margin-bottom: 250px;
-        margin: 2vw 2vw 1vw 12vw;
     }
     .description-text{
         text-align: center;
@@ -570,23 +578,24 @@ footer{
         display: inline-flex;
         flex-direction: column;
         margin: 2px;
+        margin-top: 0.2rem;
     }   
     .main-img img{
-        margin: 20px 0;
+        margin: 10px 2px 15px;
         width: 350px;
         height: 270px;
     }
     h1{
-        font-size: 2.2em;
-        letter-spacing: 1.5px;
+        font-size: 1.7rem;
+        letter-spacing: 1.3px;
         margin: 6px 0 4px;
     }
     .smallDescription{
         letter-spacing: 1px;
-        color: #777;
+        color: #5e5e5e;
         font-size: 1rem;
         min-width: 200px;
-        line-height: 1.5;
+        line-height: 1.4;
     }
     .socialList li a:hover{
         box-shadow: 0 2px 15px 0 var(--maincolor);
@@ -619,11 +628,12 @@ footer{
     }
     .grid-items-div-projects h3{
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 2vw;
+        padding: 0.5vw;
     }
     .grid-container-experience{
         grid-template-columns: repeat(2, 35vw);
-        grid-template-rows: repeat(3, 27vw);
+        grid-template-rows: repeat(2, 27vw);
     }
     .grid-items-experience{
         width: 25vw;
@@ -635,11 +645,35 @@ footer{
     }
     .grid-items-div-experience h4{
         text-align: center;
-        font-size: 2.1vw;
+        font-size: 1.6vw;
+        padding: 0.5vw;
     }
     .grid-items-div-experience p{
         text-align: center;
-        font-size: 1.8vw;
+        font-size: 1.3vw;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 30px;
+    }
+    .title-contact{
+        margin: 10px 20px;
+        padding-top: 50px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 20px;
+        margin: 25px 20px;
+        width: 75vw;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
     }
     .name{
         width: 60vw;
@@ -665,6 +699,17 @@ footer{
     }
     .title-contact-form{
         margin: 1vh;
+    }
+    .submit{
+        position: relative;
+        justify-content: center;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid #aaa;
+        color: #eee;
+        background-color: var(--maincolor);
+        left: 40%;
     }
       
 }
