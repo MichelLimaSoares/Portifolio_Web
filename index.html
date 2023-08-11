@@ -54,7 +54,7 @@
             </div>
         </div>    
         <!-- secund page ABOUT ME-->
-        <section>
+        <section id="about">
           <div class="about" id="about">
               <h2 class="title-about-me" id="about">Sobre</h2>
               <p class="information">
@@ -80,9 +80,9 @@
               </p>  
           </div>
         </section>        
-        <!-- third page WORKS-EXPERIENCES -->
-        <section>
-            <div class="works" id="works">
+        <!-- third page WORKS -->
+        <section id="works">
+            <div class="works">
                 <h2 class="title-works">Projetos</h2>
                 <div class="grid-container-works">
                     <div class="grid-items-div-projects">
@@ -104,8 +104,9 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="experience" id="experience">
+        <!-- third page EXPERIENCES -->
+        <section id="experience">
+            <div class="experience">
                 <h2 class="title-experience">Experiência</h2>
                 <div class="grid-container-experience">
                     <div class="grid-items-div-experience">
@@ -128,8 +129,8 @@
             </div>
         </section>
         <!-- fourth page SKILLS-->
-        <section>
-            <div class="skills" id="skills">
+        <section id="skills">
+            <div class="skills">
                 <h2 class="title-skills" >Conhecimentos</h2>
                 <ul class="grid-container">
                     <li class="grid-items"><img src="./img/html.png" alt="HTML"><p>HTML</p></li>
@@ -160,24 +161,25 @@
             </div>
         </section>
         <!-- fifth page CONTACTS -->
-        <section class="contact" id="contact">
-            <h2 class="title-contact">Contatos</h2>
-            <div class="contact-details">
-                <div class="contact-details-email">
-                    <img src="./img/email.png" alt="EMAIL">
-                    <a href="mailto:michellimasoares2017@gmail.com">michellimasoares2017@gmail.com</a>
-                    <p>My Email</p>
+        <section id="contact">
+            <div class="contact">
+                <h2 class="title-contact">Contatos</h2>
+                <div class="contact-details">
+                    <div class="contact-details-email">
+                        <img src="./img/email.png" alt="EMAIL">
+                        <a href="mailto:michellimasoares2017@gmail.com">michellimasoares2017@gmail.com</a>
+                        <p>My Email</p>
+                    </div>
+                    <h3 class="title-contact-form">Contact Form</h3>
+                    <form name="contact" method="POST" data-netlify="true" class="form-contact">
+                        <input type="text" class="name" required placeholder="Name *" autocomplete="none" name="" id="name">
+                        <input type="email" class="email" required placeholder="Email *" autocomplete="none" name="" id="email">
+                        <input type="text" class="subject" required placeholder="Subject *" autocomplete="none" name="" id="subject">
+                        <textarea required placeholder=" Your Message" name="yourmessage" id="yourMessage" cols="30" rows="10"></textarea>
+                        <input class="submit" type="submit" value="Enviar">   
+                    </form>
                 </div>
-                <h3 class="title-contact-form">Contact Form</h3>
-                <form name="contact" method="POST" data-netlify="true" class="form-contact">
-                    <input type="text" class="name" required placeholder="Name *" autocomplete="none" name="" id="name">
-                    <input type="email" class="email" required placeholder="Email *" autocomplete="none" name="" id="email">
-                    <input type="text" class="subject" required placeholder="Subject *" autocomplete="none" name="" id="subject">
-                    <textarea required placeholder=" Your Message" name="yourmessage" id="yourMessage" cols="30" rows="10"></textarea>
-                    <input class="submit" type="submit" value="Send">
-                    <form action="">
-                </form>
-            </div>
+            </div>            
         </section>
     </main>    
     <!-- FOOTER -->
