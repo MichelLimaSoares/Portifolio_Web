@@ -22,3 +22,12 @@ function widthSize(){
   };
 };
 window.addEventListener("resize", widthSize);
+
+// Rolar automaticamente para o topo (início) da página ao carregar
+window.onload = function() {
+  window.location.href = "#top";
+};
+
+
+
+
