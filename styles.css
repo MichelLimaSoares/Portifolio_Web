@@ -68,7 +68,7 @@ body {
     background-image: url('./img/plan-white.jpg');
     font-family: 'poppins', sans-serif;
     overflow-x: hidden;
-    color: #333;
+    color: #333; 
 }
 .main-img{
     display: flex;
@@ -181,7 +181,7 @@ h1 span{
     font-size: 1.6rem;
 }
 .information{
-    background: #fff;
+    background-color: #fdf6f696;
     padding: 30px 10vw;
     border-radius: 50px;
     font-size: 1.1rem;
@@ -212,7 +212,7 @@ h1 span{
     grid-template-rows: repeat(2, 17vw);
     justify-content: center;
     align-self: center;
-    background: #fff;
+    background-color: #fdf6f696;
     padding: 30px;
     border-radius: 50px;
     width: 75vw;
@@ -259,7 +259,7 @@ h1 span{
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 17vw);
     justify-content: center;
-    background: #fff;
+    background-color: #fdf6f696;
     padding: 30px;
     border-radius: 50px;
     width: 75vw;
@@ -326,7 +326,7 @@ h1 span{
     list-style: none;
     align-self: center;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    background: #fff;
+    background-color: #fdf6f696;
     padding: 30px;
     border-radius: 50px;
     grid-column-gap: 55px;
@@ -368,7 +368,7 @@ h1 span{
 .contact-details{
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background-color: #fdf6f696;
     align-items: center;
     justify-content: center;
     align-self: center;
