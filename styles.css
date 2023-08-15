@@ -635,7 +635,7 @@ footer{
     }
     .title-about-me{        
         margin-top: 10vh;
-        margin-bottom: 40px;
+        margin-bottom: 40px;        
     }
     .information{
         text-align: justify;
@@ -658,6 +658,10 @@ footer{
     .grid-container{
         grid-template-columns: repeat(3, 10vw);
     }
+    .title-works{
+        margin-top: 10vh;
+        margin-bottom: 40px;
+    }
     .grid-container-works{
         grid-template-columns: repeat(2, 35vw);
         grid-template-rows: repeat(2, 27vw);
@@ -670,6 +674,10 @@ footer{
         text-align: center;
         font-size: 2vw;
         padding: 0.5vw;
+    }
+    .title-experience{
+        margin-top: 10vh;
+        margin-bottom: 40px;
     }
     .grid-container-experience{
         grid-template-columns: repeat(2, 35vw);
@@ -692,17 +700,18 @@ footer{
         text-align: center;
         font-size: 1.3vw;
     }
+    .title-skills{
+        margin-top: 10vh;
+        margin-bottom: 40px;
+    }
     .contact{
         display: flex;
         flex-direction: column;
         margin: 40px 30px;
     }
     .title-contact{
-        margin: 10px 20px;
-        padding-top: 50px;
-        font-weight: 500;
-        letter-spacing: 2px;
-        font-size: 1.6rem;
+        margin-top: 10vh;
+        margin-bottom: 40px;
     }
     .contact-details{
         display: flex;
