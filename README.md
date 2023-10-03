@@ -20,7 +20,7 @@
   </ul>
 
   <h2>Hospedagem</h2>
-  <p>Este portfólio está hospedado no Netlify. Você pode acessá-lo através do seguinte link: <a href="https://soft-custard-887629.netlify.app/">Portfólio de Michel de Lima Soares</a></p>
+  <p>Este portfólio está hospedado no Netlify. Você pode acessá-lo através do seguinte link: <a href="https://portifolio-mls-tec.netlify.app/">Portfólio de Michel de Lima Soares</a></p>
 
   <h2>Como Executar Localmente</h2>
   <ol>
