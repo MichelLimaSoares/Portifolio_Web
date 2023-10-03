@@ -336,7 +336,7 @@ h1 span{
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     background-color: #fdf6f696;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     grid-column-gap: 55px;
     grid-row-gap: 55px;
     width: 85vw;
@@ -344,7 +344,7 @@ h1 span{
 .grid-items{
     justify-self: center;
     padding: 10px 2px 5px 2px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 0.5px solid #aaa;
     transition-duration: 0.2s;
 }
@@ -691,9 +691,9 @@ footer{
     .information{
         text-align: justify;
         align-self: center;
-        background: #fff;
+        background: #fdf6f696;
         padding: 25px 7vw;
-        border-radius: 20px;
+        border-radius: 10px;
         font-size: 1.1rem;
         letter-spacing: 0.3px;
         width: 85vw;
@@ -778,7 +778,7 @@ footer{
     .contact-details{
         display: flex;
         flex-direction: column;
-        background: #fff;
+        background: #fdf6f696;
         border-radius: 20px;
         margin: 25px 20px;
         width: 85vw;
@@ -1099,7 +1099,7 @@ footer{
     .contact-details{
         display: flex;
         flex-direction: column;
-        background: #fff;
+        background: #fdf6f696;
         border-radius: 10px;
         margin: 15px 10px;
         width: 85vw;
