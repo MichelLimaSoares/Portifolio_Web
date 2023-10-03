@@ -69,6 +69,12 @@ body {
     overflow-x: hidden;
     color: #333; 
 }
+/* HOME */
+.home{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px;
+}
 .main-img{
     display: flex;
     flex-basis: 50%;
@@ -91,7 +97,7 @@ body {
     width: 75vw;
     align-items: center;
     justify-content: center;
-    margin-left: 12vw;
+    margin-left: 13vw;
     padding-top: 10vh;
 }
 .description-text{
@@ -101,14 +107,14 @@ body {
     text-align: center;
 }
 .greeting{
-    letter-spacing: 1.5px;
-    font-size: 1em;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
     line-height: 1.5;
 }
 h1{
-    font-size: 2.5em;
+    font-size: 2.4rem;
     letter-spacing: 2.5px;
-    margin: 24px 0;
+    margin: 20px 0;
     color: #5e5e5e;
 }
 h1 span{
@@ -117,13 +123,13 @@ h1 span{
 .smallDescription{
     letter-spacing: 1px;
     color: #777;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     min-width: 250px;
     line-height: 1.5;
 }
 .smallDescription span {
     color: var(--maincolor);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 550;
 }
 /* LINKS LINKEDIN / GITHUB */
@@ -490,6 +496,12 @@ footer{
     body{
         overflow-x: hidden;
     }
+    /* HOME */
+    .home{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 25px;
+    }
     nav{
         display: flex;
         justify-content: space-around;
@@ -603,6 +615,11 @@ footer{
         margin-left: 11vw;
         padding-top: 14vh;
     }
+    .greeting{
+        letter-spacing: 1px;
+        font-size: 1em;
+        line-height: 1.5;
+    }
     .description-text{
         display: inline-block;
         text-align: center;
@@ -632,23 +649,23 @@ footer{
     .main-img img{
         margin: 1px 2px 10px;
         width: 350px;
-        height: 250px;
+        height: 260px;
     }
     h1{
-        font-size: 5.1vw;
+        font-size: 5vw;
         letter-spacing: 1px;
         margin: 6px 0 4px;
     }
     .smallDescription{
         letter-spacing: 1px;
         color: #5e5e5e;
-        font-size: 4.9vw;
+        font-size: 4.8vw;
         min-width: 200px;
         line-height: 1.4;
     }
     .smallDescription span {
         color: var(--maincolor);
-        font-size: 4.9vw;
+        font-size: 4.8vw;
         font-weight: 550;
     }
     .socialList li a:hover{
@@ -825,6 +842,12 @@ footer{
 @media screen and (min-width: 550px) and (max-width: 750px){
     body{
         overflow-x: hidden;
+    }
+    /* HOME */
+    .home{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 25px;
     }
     nav{
         display: flex;
