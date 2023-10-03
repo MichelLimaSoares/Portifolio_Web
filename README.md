@@ -62,7 +62,7 @@
 
   <h3>Link ao Vivo:</h3>
 
-  <p>Para verificar pessoalmente a implementação do SSL/TLS, visite [https://mls-tec.com](https://mls-tec.com).</p>
+  <p>Para verificar pessoalmente a implementação do SSL/TLS, visite https://mls-tec.com</p>
 
   <h3>Reconhecimento:</h3>
 
