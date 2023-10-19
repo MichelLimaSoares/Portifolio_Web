@@ -475,6 +475,29 @@ textarea{
     background-color: var(--maincolor);
     left: 47%;
 }
+/* COMMENTS */
+.disqus{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px;
+}
+.title-disqus{
+    margin: 50px 20px 10px;
+    padding-top: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+}
+.comments-section{
+    background-color: #fdf6f696;
+    padding: 30px 10vw;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    width: 75vw;
+    text-align: justify;
+    align-self: center;
+}
 /* FOOTER */
 footer{
     display: inline-block;
