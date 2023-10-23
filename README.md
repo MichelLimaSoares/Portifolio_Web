@@ -4,6 +4,9 @@
   <meta charset="UTF-8"> 
 </head>
 <body>
+
+  ## Status: Em Desenvolvimento 🚧
+  ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
   <h1>Portfólio - Michel de Lima Soares</h1>
 
   <h2>Este é o meu portfólio pessoal, onde apresento minhas habilidades como desenvolvedor de software e compartilho informações sobre minha experiência, projetos e formas de contato.</h2>

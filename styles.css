@@ -265,7 +265,6 @@ h1 span{
 .grid-container-experience{
     display: grid;
     grid-template-columns: repeat(2, 30vw);
-    grid-template-rows: repeat(2, 17vw);
     justify-content: center;
     background-color: #fdf6f696;
     padding: 20px;
@@ -279,6 +278,12 @@ h1 span{
     justify-items: center;
     align-items: center;
     padding: 1rem 1rem ;
+}
+.grid-task-experience-hidden{
+    display: none;
+}
+.task-experience-hidden{
+    text-align: left;
 }
 .grid-items-experience{
     width: 20vw;
@@ -309,7 +314,7 @@ h1 span{
     padding: 0.5vw;
     margin: 0 1vw; 
 }
-.grid-items-div-experience p{
+.office-experience{
     text-align: center;
     font-size: 1vw;
 }
@@ -772,7 +777,7 @@ footer{
     }
     .grid-container-experience{
         grid-template-columns: repeat(2, 35vw);
-        grid-template-rows: repeat(2, 35vw);
+        
     }
     .grid-items-experience{
         width: 25vw;
@@ -787,7 +792,7 @@ footer{
         font-size: 1.8vw;
         padding: 0.5vw;
     }
-    .grid-items-div-experience p{
+    .office-experience{
         text-align: center;
         font-size: 1.8vw;
     }
@@ -1128,7 +1133,7 @@ footer{
         font-size: 1.6vw;
         padding: 0.5vw;
     }
-    .grid-items-div-experience p{
+    .office-experience{
         text-align: center;
         font-size: 1.3vw;
     }
