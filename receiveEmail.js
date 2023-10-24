@@ -7,8 +7,6 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     var subject = document.getElementById("subject").value;
     var message = document.getElementById("yourMessage").value;
   
-    // Aqui você pode adicionar a lógica para enviar esses dados para o servidor ou fazer outras ações, como enviar um email usando uma API de email.
-  
     // Exemplo de exibição dos valores no console
     console.log("Name:", name);
     console.log("Email:", email);
