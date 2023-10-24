@@ -283,7 +283,7 @@ h1 span{
     display: none;
 }
 .task-experience-hidden{
-    text-align: left;
+    text-align: justify;
 }
 .grid-items-experience{
     width: 20vw;
